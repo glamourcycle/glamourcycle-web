@@ -114,9 +114,13 @@ Do not put a token in `config.js`, an HTML file, or Git. The script does not aut
 - `index.html`, `styles.css`, `app.js`: layout, styling, gallery, and requests.
 - `config.js`: confirmed email, optional form URL, catalog source.
 - `data/outfits.json`: original catalog or local export.
-- `assets/`: original catalog photos, plus reusable SVG paisley blocks and textile borders. Photo filenames identify the outfit.
+- `assets/`: original catalog photos, plus reusable SVG paisley blocks and textile borders. Photo filenames identify the outfit. `ma-durga-santiniketan.jpg` belongs to the removable next-collection event block.
 - `scripts/sync_airtable.py`: optional Airtable export and photo download.
 - `.github/workflows/pages.yml`: optional sync followed by GitHub Pages deployment.
+
+## Current collection event
+
+The homepage has a self-contained **Next collection** block after the hero ribbon: `#next-collection` in `index.html`, the matching CSS block in `styles.css`, and `assets/ma-durga-santiniketan.jpg`. Delete those three pieces after the event. There is no automatic expiry. In-person booth donations do not use the Google Form; the form remains for online offers.
 
 Typography uses Google Fonts with local system fallbacks. The site has no analytics, payment processing, user accounts, or reservation lock. Volunteers coordinate requests by email.
 

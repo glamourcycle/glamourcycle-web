@@ -71,3 +71,19 @@ body{background:#f5b746}
 .footer p,.footer-bottom{color:#70503a}
 @media(max-width:1000px){.donate{gap:35px}.donate-copy{padding:25px}}
 @media(max-width:700px){.hero::before{background:linear-gradient(180deg,#f5b746 0%,#f5b746 45%,#f5b74600 70%),url('assets/block-print.svg') repeat}.how{padding:65px 23px;margin-block:22px}.outfit-card{padding:7px}.card-details{padding:13px 3px 8px}.card-heading h3{font-size:20px}.donate-copy{padding:28px 23px}.footer{padding-inline:22px}.hero-tag{background:#fff1c5}.story{border-top:0}.story::before{content:"";height:28px;position:absolute;left:0;right:0;top:0;background:url('assets/textile-border.svg') repeat-x}}
+
+/* Begin next-collection event block. Delete with the HTML section and assets/ma-durga-santiniketan.jpg after the event. */
+.next-collection{padding-block:28px 8px;min-width:0}
+.next-collection-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:36px;align-items:center;background:#fff8e8;border:1px solid #b87829;box-shadow:8px 8px 0 #dc9435;border-radius:8px;padding:36px;position:relative;overflow:hidden}
+.next-collection-panel::before,.next-collection-panel::after{content:"";position:absolute;height:18px;left:0;right:0;background:url("assets/textile-border.svg") repeat-x;pointer-events:none}
+.next-collection-panel::before{top:0}.next-collection-panel::after{bottom:0}
+.next-collection-copy{min-width:0;padding-block:12px}
+.next-collection-copy h2{color:#932f20}
+.next-collection-date{margin-top:18px;font-family:var(--serif);font-size:clamp(26px,3vw,34px);letter-spacing:-.6px;color:#14635b}
+.next-collection-place{margin-top:10px;font-weight:700;color:#56321d}
+.next-collection-copy p:not(.next-collection-date):not(.next-collection-place){color:#70503a;max-width:38em}
+.next-collection-art{margin:0;min-width:0;max-width:100%;background:#16756a;border:2px solid #104d47;box-shadow:10px 12px 0 #d45b36;border-radius:48% 48% 12px 12px;padding:16px 16px 18px;overflow:hidden}
+.next-collection-art img{width:100%;height:auto;max-height:min(520px,70vw);object-fit:contain;object-position:center top;background:#fff8e8;border-radius:42% 42% 6px 6px}
+@media(max-width:1000px){.next-collection-panel{gap:24px;padding:28px}}
+@media(max-width:700px){.next-collection{padding-block:18px 4px}.next-collection-panel{grid-template-columns:minmax(0,1fr);gap:22px;padding:28px 20px 24px;box-shadow:6px 6px 0 #dc9435}.next-collection-art{max-width:420px;width:100%;margin-inline:auto;border-radius:40% 40% 10px 10px;box-shadow:8px 9px 0 #d45b36}.next-collection-art img{max-height:min(420px,85vw);border-radius:36% 36% 6px 6px}}
+/* End next-collection event block */
