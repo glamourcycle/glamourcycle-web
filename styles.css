@@ -112,3 +112,17 @@ body{background:#f5b746}
 .footer .brand-logo{width:180px}
 @media(max-width:1000px){.header nav{gap:18px}}
 @media(max-width:700px){.header{padding-block:14px}.brand-logo{width:130px}.footer .brand-logo{width:156px}.header nav{gap:12px 22px}}
+
+/* Donation destination: Falta regional map, as confirmed by the owner. */
+.destination-card{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.4fr);align-items:center;gap:36px;margin-top:30px;background:#fff8e8;border:1px solid #b87829;border-radius:8px;padding:30px;box-shadow:7px 7px 0 #dc9435}
+.destination-copy{min-width:0}
+.destination-copy .eyebrow{margin-bottom:15px}
+.destination-copy h3{font-family:var(--serif);font-size:clamp(27px,3vw,36px);line-height:1.2;color:#932f20}
+.destination-place{font-size:16px;font-weight:600;color:#14635b;margin-top:17px}
+.destination-copy>p:not(.eyebrow):not(.destination-place){color:#70503a;margin-top:16px}
+.destination-copy .text-link{display:inline-block;margin-top:22px}
+.destination-map{margin:0;min-width:0}
+.destination-map iframe{display:block;width:100%;height:360px;border:1px solid #b87829;border-radius:6px;background:#e4eee1}
+.destination-map figcaption{font-size:12px;color:#70503a;margin-top:8px}
+@media(max-width:900px){.destination-card{grid-template-columns:1fr;gap:24px;padding:24px}}
+@media(max-width:700px){.destination-card{padding:22px 18px}.destination-map iframe{height:300px}}
