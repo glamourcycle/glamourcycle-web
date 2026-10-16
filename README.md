@@ -6,6 +6,7 @@ Visual direction: saturated saffron, teal, and coral colour fields; Indian texti
 Donation intake: reuse the original DONATIONS Google Form at https://docs.google.com/forms/d/e/1FAIpQLScFDdH6EHXGB9z_9jPnfvEMQGiypii4UZYgQSL2YNX6zsxwdA/viewform. It collects donor details and quantity/location, not photo uploads. Notifications are configured by the Google Form editor, not this site.
 Delivery: the site is published through GitHub Pages. The owner authorized repository access and publication of the collection layout improvements on October 16, 2026.
 Collection layout: center the announcement text, keep event details at readable sizes, and use smaller Ma Durga artwork beside the text on desktop and below it on mobile.
+Brand: use the owner-supplied arched Glam-Cycle logo in the header and footer. Preserve the original PNG; the SVG wrapper trims transparent margins and applies terracotta ink for contrast on ivory. Self-host DM Sans and Playfair Display with their OFL licenses; use the same type families and body-text sizing in Updates.
 Updates: maintain a dedicated #updates section with readable HTML text and original announcement images. The first post uses the owner-supplied August 30, 2026 announcement; preserve its date and wording.
 Constraints: current catalog photos come from the original Google Site; reconstructed catalog numbers and original size notation need volunteer verification. No invented availability, impact totals, prices, pickup locations, or charity registration claims.
 <!-- AI-CONTEXT-END -->
@@ -124,7 +125,7 @@ Do not put a token in `config.js`, an HTML file, or Git. The script does not aut
 
 The homepage has a self-contained **Next collection** block after the hero ribbon: `#next-collection` in `index.html`, the matching CSS block in `styles.css`, and `assets/ma-durga-santiniketan.jpg`. Delete those three pieces after the event. There is no automatic expiry. In-person booth donations do not use the Google Form; the form remains for online offers.
 
-Typography uses Google Fonts with local system fallbacks. The site has no analytics, payment processing, user accounts, or reservation lock. Volunteers coordinate requests by email.
+Typography uses locally bundled DM Sans and Playfair Display from the official Google Fonts repository, with OFL licenses in `assets/fonts/` and system fallbacks. The uploaded announcement image retains its original embedded lettering. The site has no analytics, payment processing, user accounts, or reservation lock. Volunteers coordinate requests by email.
 
 ## Verification
 
