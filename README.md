@@ -130,3 +130,7 @@ Typography uses Google Fonts with local system fallbacks. The site has no analyt
 Checks passed on October 15, 2026: five catalog records; category filtering; catalog-number search; empty search results; outfit dialog opening; Escape closing; request email and catalog number; donation email fallback; photo loading; and no horizontal overflow at 320, 390, 768, and 1440 pixels. No browser JavaScript errors were observed. Desktop and mobile screenshots were visually reviewed.
 
 The Airtable export passed checks with simulated API responses: only public fields were exported, photos were copied locally, the catalog source was updated, and invalid records did not replace the existing catalog. Live Airtable sync and GitHub Pages deployment require account configuration and have not been tested.
+
+## Original page addresses
+
+The `home/`, `donate/`, and `receive/` directories redirect original Google Sites addresses to the corresponding sections of the new website. The Pages workflow includes these files in the deployment. Preserve these redirects so saved links continue to work.
