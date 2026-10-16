@@ -6,6 +6,7 @@ Visual direction: saturated saffron, teal, and coral colour fields; Indian texti
 Donation intake: reuse the original DONATIONS Google Form at https://docs.google.com/forms/d/e/1FAIpQLScFDdH6EHXGB9z_9jPnfvEMQGiypii4UZYgQSL2YNX6zsxwdA/viewform. It collects donor details and quantity/location, not photo uploads. Notifications are configured by the Google Form editor, not this site.
 Delivery: the site is published through GitHub Pages. The owner authorized repository access and publication of the collection layout improvements on October 16, 2026.
 Collection layout: center the announcement text, keep event details at readable sizes, and use smaller Ma Durga artwork beside the text on desktop and below it on mobile.
+Updates: maintain a dedicated #updates section with readable HTML text and original announcement images. The first post uses the owner-supplied August 30, 2026 announcement; preserve its date and wording.
 Constraints: current catalog photos come from the original Google Site; reconstructed catalog numbers and original size notation need volunteer verification. No invented availability, impact totals, prices, pickup locations, or charity registration claims.
 <!-- AI-CONTEXT-END -->
 # Glam-Cycle
