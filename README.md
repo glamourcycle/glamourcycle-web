@@ -11,6 +11,8 @@ Collection layout: center the announcement text, keep event details at readable 
 Brand: use the full lettered logo in the header, footer, and browser-tab icons. Use the complete circular emblem without words in place of decorative star motifs. Derive it from the gold ornament of the supplied logo by reflecting the semicircle. Preserve the original PNG; the SVG wrapper trims transparent margins and applies red ink for contrast on white in this design. Self-host DM Sans and Playfair Display with their OFL licenses; use the same type families and body-text sizing in Updates.
 Map: the Updates destination card shows the Falta area, not an exact recipient address. The screenshot supplied by the owner shows Falta; a Rotary Club of Calcutta bulletin also names Mission Mother and Child at Falta (https://rotaryindia.org/Documents/ebulletin/Group2529/The_Chaka_26_Sep_202529092025052837PM.pdf). The owner confirmed use of the Falta area on October 16, 2026.
 Updates: maintain a dedicated #updates section with readable HTML text and original announcement images. The first post uses the owner-supplied August 30, 2026 announcement; preserve its date and wording, with the owner-approved spelling Kolkata in the HTML location text. Preserve the source image as supplied.
+Privacy: use only the flattened, redacted donation announcement on the public site. Recipient name and location must not be visible. Historical unredacted copies require a separately approved history rewrite. Use a project-only, non-personal Git author identity for publication commits; local settings do not transfer to other clones.
+Donation quality: accept only clean, ready-to-wear outfits in excellent condition, without cuts, tears, nicks, holes, or damaged fabric.
 Constraints: current catalog photos come from the original Google Site; reconstructed catalog numbers and original size notation need volunteer verification. No invented availability, impact totals, prices, pickup locations, or charity registration claims.
 <!-- AI-CONTEXT-END -->
 # Glam-Cycle
@@ -139,3 +141,15 @@ The Airtable export passed checks with simulated API responses: only public fiel
 ## Original page addresses
 
 The `home/`, `donate/`, and `receive/` directories redirect original Google Sites addresses to the corresponding sections of the new website. The Pages workflow includes these files in the deployment. Preserve these redirects so saved links continue to work.
+
+## Commit privacy
+
+In each local clone used for publication, set a project author identity before committing:
+
+```sh
+git config --local user.name "Glam-Cycle Website"
+git config --local user.email "website@glamourcycle.invalid"
+git config --local user.useConfigOnly true
+```
+
+The `.invalid` address is deliberately non-deliverable and does not identify a personal GitHub account. This affects future commits in that clone only. It does not change past commits, public GitHub activity, or other contributors' local settings.
